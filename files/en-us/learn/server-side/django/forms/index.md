@@ -289,7 +289,7 @@ def renew_book_librarian(request, pk):
         'book_instance': book_instance,
     }
 
-    return render(request, 'catalog/book_renew_librarian.html', context)
+    return render(request, 'book_renew_librarian.html', context)
 ```
 
 First, we import our form (`RenewBookForm`) and a number of other useful objects/methods used in the body of the view function:
